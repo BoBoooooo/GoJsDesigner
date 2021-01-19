@@ -1,0 +1,76 @@
+{
+  "name": "gojs-designer",
+  "author": "BoBo(BoBoooooo159@gmail.com)",
+  "version": "1.0.1",
+  "description": "gojs流程图设计器",
+  "main": "lib/gojs-designer.umd.min.js",
+  "private": false,
+  "license": "MIT",
+  "keywords": [
+    "gojs",
+    "流程图",
+    "设计器"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BoBoooooo/GoJsDesigner"
+  },
+  "homepage": "https://github.com/BoBoooooo/GoJsDesigner#readme",
+  "bugs": {
+    "url": "https://github.com/BoBoooooo/GoJsDesigner/issues"
+  },
+  "scripts": {
+    "serve": "node crack && vue-cli-service serve",
+    "build": "node crack && vue-cli-service build",
+    "lint": "node crack && vue-cli-service lint",
+    "lib": "node crack && vue-cli-service build --target lib --name gojs-designer --dest lib packages/index.js",
+    "deploy": "node crack && npm run lib && npm publish"
+  },
+  "files": [
+    "lib",
+    "types"
+  ],
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10",
+    "gojs": "2.0.4",
+    "gojs-designer": "1.0.0"
+  },
+  "devDependencies": {
+    "terser-webpack-plugin": "^1.2.4",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "@vue/cli-plugin-babel": "^3.1.0",
+    "@vue/cli-plugin-eslint": "^3.1.0",
+    "@vue/cli-service": "^3.1.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10",
+    "sass": "^1.30.0",
+    "sass-loader": "10.1.0",
+    "element-ui": "^2.13.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
