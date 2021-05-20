@@ -7,8 +7,8 @@
 - npm 引入
 
 ```javascript
-import GoJsDesigner from 'gojs-designer'
-import 'gojs-designer/lib/gojs-designer.css';
+import GoJsDesigner from 'gojs-flow-designer'
+import 'gojs-flow-designer/lib/gojs-designer.css';
 
 <GoJsDesigner
   :preview="preview"
@@ -22,8 +22,8 @@ import 'gojs-designer/lib/gojs-designer.css';
 - 浏览器引入
 
 ```html
-<script src="https://unpkg.com/gojs-designer"></script>
-<link href="https://unpkg.com/gojs-designer/lib/gojs-designer.css" />
+<script src="https://unpkg.com/gojs-flow-designer"></script>
+<link href="https://unpkg.com/gojs-flow-designer/lib/gojs-designer.css" />
 
 <go-js-designer
   :preview="preview"

@@ -1,7 +1,7 @@
 {
-  "name": "gojs-designer",
+  "name": "gojs-flow-designer",
   "author": "BoBo(BoBoooooo159@gmail.com)",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "gojs流程图设计器",
   "main": "lib/gojs-designer.umd.min.js",
   "private": false,
