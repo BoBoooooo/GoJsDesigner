@@ -20,7 +20,7 @@
     "url": "https://github.com/BoBoooooo/GoJsDesigner/issues"
   },
   "scripts": {
-    "serve": "node crack && vue-cli-service serve",
+    "start": "node crack && vue-cli-service serve",
     "build": "node crack && vue-cli-service build",
     "lint": "node crack && vue-cli-service lint",
     "lib": "node crack && vue-cli-service build --target lib --name gojs-designer --dest lib packages/index.js",
